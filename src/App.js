@@ -1,5 +1,6 @@
-//import ExpenseItems from "./components/ExpenseItems";
+
 import ExpenseRender from "./components/ExpenseRender";
+import NavBar from "./components/NavBar";
 
 function App() { 
   const expenses = [
@@ -31,6 +32,7 @@ function App() {
 
   return (
     <div>
+      <NavBar></NavBar>
       <ExpenseRender items={expenses}></ExpenseRender>
     </div>
   );
