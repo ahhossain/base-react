@@ -11,7 +11,7 @@ function NavBar() {
                     <li><a href='#' className='nav-items'>Item</a></li>
                 </ul>
             </nav>
-            <a className="cta nav-items" href="#"><button className='nav-items'>Contact</button></a>
+            <a href="#"><button className='cta'>Contact</button></a>
         </header>
     );
 }

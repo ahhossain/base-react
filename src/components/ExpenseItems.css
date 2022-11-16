@@ -29,11 +29,33 @@
     /*background-color: rgba(0,136,169,1);*/
     background-color: #0b3b44;
     padding: 0.5rem;
-    border-radius: 12px;
-    margin-right: 2px;
-    font-size: 20px;
-    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 16px;
+    padding: 0.5rem 0.5rem;
   }
+
+  .ct-text-button{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #edf0f1;
+    padding: 0.3rem 0.5rem;
+    text-decoration: none;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.ct-text-button:hover {
+  background-color: rgba(0,136,169,0.8);
+}
+
+.ct-button {
+  margin: 0px 10px;
+}
+
+
   
   @media (min-width: 580px) {
     .expense-item__description {
