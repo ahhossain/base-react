@@ -1,6 +1,6 @@
 import './ExpenseRender.css'
 import ExpenseItems from "./ExpenseItems";
-import Card from './Card'
+import Card from '../Card/Card'
 
 function ExpenseRender(props) {
 
